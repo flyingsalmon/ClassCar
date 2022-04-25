@@ -58,4 +58,4 @@ ShowStats() # this will show latest key statistics
 
 For efficiency, I don’t populate the lists of datapoints unless the car is moving or has moved at least once. Additionally, when the same scales are used in more than one plot (e.g. speed (mph) data points), I don’t copy the entire list of datapoints again, instead, I point to the same list in memory and pluck the datapoints from there. This reduces the memory usage and just results in overall faster execution.
 
-For snapshots, see http://flyingsalmon.net/?p=3444
+For more and EXE download, see http://flyingsalmon.net/?p=3444
